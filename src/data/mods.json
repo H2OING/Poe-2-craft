@@ -1,0 +1,368 @@
+[
+  {
+    "id": "IncreasedPhysicalDamagePercent",
+    "name": "of Brutality",
+    "type": "suffix",
+    "group": "IncreasedPhysicalDamage",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Brutality",   "requiredLevel": 60, "spawnWeight": 500,  "statMin": 60, "statMax": 80 },
+      { "tier": 2, "name": "of Slaughter",   "requiredLevel": 45, "spawnWeight": 750,  "statMin": 45, "statMax": 59 },
+      { "tier": 3, "name": "of Carnage",     "requiredLevel": 30, "spawnWeight": 1000, "statMin": 30, "statMax": 44 },
+      { "tier": 4, "name": "of Striking",    "requiredLevel": 15, "spawnWeight": 1200, "statMin": 15, "statMax": 29 },
+      { "tier": 5, "name": "of Impact",      "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 5,  "statMax": 14 }
+    ],
+    "statId": "local_physical_damage_+%",
+    "statText": "#% increased Physical Damage"
+  },
+  {
+    "id": "AddedPhysicalDamage",
+    "name": "of Flaying",
+    "type": "prefix",
+    "group": "AddedPhysicalDamage",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "Flaying",    "requiredLevel": 62, "spawnWeight": 400,  "statMin": 11, "statMax": 23 },
+      { "tier": 2, "name": "Butchering", "requiredLevel": 46, "spawnWeight": 600,  "statMin": 7,  "statMax": 14 },
+      { "tier": 3, "name": "Hewing",     "requiredLevel": 28, "spawnWeight": 900,  "statMin": 4,  "statMax": 9 },
+      { "tier": 4, "name": "Crafting",   "requiredLevel": 13, "spawnWeight": 1200, "statMin": 2,  "statMax": 5 },
+      { "tier": 5, "name": "Sharp",      "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 1,  "statMax": 2 }
+    ],
+    "statId": "local_minimum_added_physical_damage",
+    "statText": "Adds # to # Physical Damage"
+  },
+  {
+    "id": "AddedFireDamageToWeapon",
+    "name": "of Flames",
+    "type": "suffix",
+    "group": "AddedFireDamageToWeapon",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Incineration", "requiredLevel": 60, "spawnWeight": 500,  "statMin": 17, "statMax": 33 },
+      { "tier": 2, "name": "of Conflagration","requiredLevel": 44, "spawnWeight": 750,  "statMin": 11, "statMax": 22 },
+      { "tier": 3, "name": "of Flames",        "requiredLevel": 28, "spawnWeight": 1000, "statMin": 6,  "statMax": 13 },
+      { "tier": 4, "name": "of Fire",           "requiredLevel": 11, "spawnWeight": 1200, "statMin": 3,  "statMax": 7 },
+      { "tier": 5, "name": "of Heat",           "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 1,  "statMax": 4 }
+    ],
+    "statId": "local_minimum_added_fire_damage",
+    "statText": "Adds # to # Fire Damage"
+  },
+  {
+    "id": "AddedColdDamageToWeapon",
+    "name": "of Glaciation",
+    "type": "suffix",
+    "group": "AddedColdDamageToWeapon",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Glaciation", "requiredLevel": 60, "spawnWeight": 500,  "statMin": 14, "statMax": 26 },
+      { "tier": 2, "name": "of Freezing",   "requiredLevel": 44, "spawnWeight": 750,  "statMin": 9,  "statMax": 17 },
+      { "tier": 3, "name": "of Chilling",   "requiredLevel": 28, "spawnWeight": 1000, "statMin": 5,  "statMax": 10 },
+      { "tier": 4, "name": "of Cold",       "requiredLevel": 11, "spawnWeight": 1200, "statMin": 2,  "statMax": 6 },
+      { "tier": 5, "name": "of Winter",     "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 1,  "statMax": 3 }
+    ],
+    "statId": "local_minimum_added_cold_damage",
+    "statText": "Adds # to # Cold Damage"
+  },
+  {
+    "id": "AddedLightningDamageToWeapon",
+    "name": "of Sparking",
+    "type": "suffix",
+    "group": "AddedLightningDamageToWeapon",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Discharging", "requiredLevel": 60, "spawnWeight": 500,  "statMin": 1, "statMax": 50 },
+      { "tier": 2, "name": "of Arcing",      "requiredLevel": 44, "spawnWeight": 750,  "statMin": 1, "statMax": 34 },
+      { "tier": 3, "name": "of Sparking",    "requiredLevel": 28, "spawnWeight": 1000, "statMin": 1, "statMax": 22 },
+      { "tier": 4, "name": "of Static",      "requiredLevel": 11, "spawnWeight": 1200, "statMin": 1, "statMax": 14 },
+      { "tier": 5, "name": "of Buzzing",     "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 1, "statMax": 8 }
+    ],
+    "statId": "local_minimum_added_lightning_damage",
+    "statText": "Adds # to # Lightning Damage"
+  },
+  {
+    "id": "LocalIncreasedAttackSpeed",
+    "name": "of Speed",
+    "type": "suffix",
+    "group": "LocalIncreasedAttackSpeed",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Acceleration", "requiredLevel": 60, "spawnWeight": 500,  "statMin": 15, "statMax": 22 },
+      { "tier": 2, "name": "of Quickness",    "requiredLevel": 45, "spawnWeight": 750,  "statMin": 10, "statMax": 14 },
+      { "tier": 3, "name": "of Speed",        "requiredLevel": 28, "spawnWeight": 1000, "statMin": 7,  "statMax": 9 },
+      { "tier": 4, "name": "of Haste",        "requiredLevel": 13, "spawnWeight": 1200, "statMin": 4,  "statMax": 6 },
+      { "tier": 5, "name": "of Motion",       "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 2,  "statMax": 3 }
+    ],
+    "statId": "local_attack_speed_+%",
+    "statText": "#% increased Attack Speed"
+  },
+  {
+    "id": "LocalCriticalStrikeChance",
+    "name": "of Accuracy",
+    "type": "suffix",
+    "group": "LocalCriticalStrikeChance",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Destruction",  "requiredLevel": 60, "spawnWeight": 400,  "statMin": 40, "statMax": 50 },
+      { "tier": 2, "name": "of Decimation",   "requiredLevel": 44, "spawnWeight": 600,  "statMin": 30, "statMax": 39 },
+      { "tier": 3, "name": "of Ruin",         "requiredLevel": 28, "spawnWeight": 900,  "statMin": 20, "statMax": 29 },
+      { "tier": 4, "name": "of Havoc",        "requiredLevel": 13, "spawnWeight": 1200, "statMin": 10, "statMax": 19 },
+      { "tier": 5, "name": "of Chance",       "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 5,  "statMax": 9 }
+    ],
+    "statId": "local_critical_strike_chance_+%",
+    "statText": "#% increased Critical Strike Chance"
+  },
+  {
+    "id": "LocalIncreasedArmour",
+    "name": "of the Tortoise",
+    "type": "prefix",
+    "group": "LocalIncreasedArmour",
+    "tags": ["armour", "str_armour"],
+    "tiers": [
+      { "tier": 1, "name": "Impenetrable",   "requiredLevel": 60, "spawnWeight": 500,  "statMin": 120, "statMax": 139 },
+      { "tier": 2, "name": "Deflecting",     "requiredLevel": 45, "spawnWeight": 750,  "statMin": 100, "statMax": 119 },
+      { "tier": 3, "name": "Fortified",      "requiredLevel": 30, "spawnWeight": 1000, "statMin": 80,  "statMax": 99 },
+      { "tier": 4, "name": "Plated",         "requiredLevel": 15, "spawnWeight": 1200, "statMin": 60,  "statMax": 79 },
+      { "tier": 5, "name": "Reinforced",     "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 30,  "statMax": 59 }
+    ],
+    "statId": "local_armour_+%",
+    "statText": "#% increased Armour"
+  },
+  {
+    "id": "LocalIncreasedEvasionRating",
+    "name": "of the Blur",
+    "type": "prefix",
+    "group": "LocalIncreasedEvasionRating",
+    "tags": ["armour", "dex_armour"],
+    "tiers": [
+      { "tier": 1, "name": "Windshear",  "requiredLevel": 60, "spawnWeight": 500,  "statMin": 120, "statMax": 139 },
+      { "tier": 2, "name": "Slipping",   "requiredLevel": 45, "spawnWeight": 750,  "statMin": 100, "statMax": 119 },
+      { "tier": 3, "name": "Evasive",    "requiredLevel": 30, "spawnWeight": 1000, "statMin": 80,  "statMax": 99 },
+      { "tier": 4, "name": "Agile",      "requiredLevel": 15, "spawnWeight": 1200, "statMin": 60,  "statMax": 79 },
+      { "tier": 5, "name": "Nimble",     "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 30,  "statMax": 59 }
+    ],
+    "statId": "local_evasion_rating_+%",
+    "statText": "#% increased Evasion Rating"
+  },
+  {
+    "id": "LocalIncreasedEnergyShield",
+    "name": "of the Barrier",
+    "type": "prefix",
+    "group": "LocalIncreasedEnergyShield",
+    "tags": ["armour", "int_armour"],
+    "tiers": [
+      { "tier": 1, "name": "Zeal",        "requiredLevel": 60, "spawnWeight": 500,  "statMin": 120, "statMax": 139 },
+      { "tier": 2, "name": "Warding",     "requiredLevel": 45, "spawnWeight": 750,  "statMin": 100, "statMax": 119 },
+      { "tier": 3, "name": "Insulation",  "requiredLevel": 30, "spawnWeight": 1000, "statMin": 80,  "statMax": 99 },
+      { "tier": 4, "name": "Shielding",   "requiredLevel": 15, "spawnWeight": 1200, "statMin": 60,  "statMax": 79 },
+      { "tier": 5, "name": "Shimmering",  "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 30,  "statMax": 59 }
+    ],
+    "statId": "local_energy_shield_+%",
+    "statText": "#% increased Energy Shield"
+  },
+  {
+    "id": "MaxLife",
+    "name": "of Grounding",
+    "type": "prefix",
+    "group": "MaxLife",
+    "tags": ["armour", "jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of the Gorilla",  "requiredLevel": 60, "spawnWeight": 750,  "statMin": 100, "statMax": 119 },
+      { "tier": 2, "name": "of the Elephant", "requiredLevel": 46, "spawnWeight": 1000, "statMin": 80,  "statMax": 99 },
+      { "tier": 3, "name": "of the Ox",       "requiredLevel": 36, "spawnWeight": 1250, "statMin": 60,  "statMax": 79 },
+      { "tier": 4, "name": "of the Bear",     "requiredLevel": 24, "spawnWeight": 1500, "statMin": 40,  "statMax": 59 },
+      { "tier": 5, "name": "of the Lion",     "requiredLevel": 12, "spawnWeight": 1750, "statMin": 20,  "statMax": 39 },
+      { "tier": 6, "name": "of the Boxer",    "requiredLevel": 1,  "spawnWeight": 2000, "statMin": 10,  "statMax": 19 }
+    ],
+    "statId": "maximum_life",
+    "statText": "+# to maximum Life"
+  },
+  {
+    "id": "MaxMana",
+    "name": "of Grounding",
+    "type": "prefix",
+    "group": "MaxMana",
+    "tags": ["armour", "jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of the Archmage",  "requiredLevel": 60, "spawnWeight": 750,  "statMin": 80,  "statMax": 99 },
+      { "tier": 2, "name": "of the Sage",      "requiredLevel": 46, "spawnWeight": 1000, "statMin": 60,  "statMax": 79 },
+      { "tier": 3, "name": "of the Wizard",    "requiredLevel": 36, "spawnWeight": 1250, "statMin": 40,  "statMax": 59 },
+      { "tier": 4, "name": "of the Scholar",   "requiredLevel": 24, "spawnWeight": 1500, "statMin": 25,  "statMax": 39 },
+      { "tier": 5, "name": "of the Student",   "requiredLevel": 12, "spawnWeight": 1750, "statMin": 15,  "statMax": 24 },
+      { "tier": 6, "name": "of the Novice",    "requiredLevel": 1,  "spawnWeight": 2000, "statMin": 5,   "statMax": 14 }
+    ],
+    "statId": "maximum_mana",
+    "statText": "+# to maximum Mana"
+  },
+  {
+    "id": "FireResistance",
+    "name": "of the Furnace",
+    "type": "suffix",
+    "group": "FireResistance",
+    "tags": ["armour", "jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of the Volcano",   "requiredLevel": 60, "spawnWeight": 750,  "statMin": 36, "statMax": 40 },
+      { "tier": 2, "name": "of the Drake",     "requiredLevel": 44, "spawnWeight": 1000, "statMin": 30, "statMax": 35 },
+      { "tier": 3, "name": "of the Furnace",   "requiredLevel": 30, "spawnWeight": 1250, "statMin": 22, "statMax": 29 },
+      { "tier": 4, "name": "of the Kiln",      "requiredLevel": 18, "spawnWeight": 1500, "statMin": 12, "statMax": 21 },
+      { "tier": 5, "name": "of the Hearth",    "requiredLevel": 1,  "spawnWeight": 1750, "statMin": 6,  "statMax": 11 }
+    ],
+    "statId": "fire_resistance_%",
+    "statText": "+#% to Fire Resistance"
+  },
+  {
+    "id": "ColdResistance",
+    "name": "of the Tundra",
+    "type": "suffix",
+    "group": "ColdResistance",
+    "tags": ["armour", "jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of the Yeti",    "requiredLevel": 60, "spawnWeight": 750,  "statMin": 36, "statMax": 40 },
+      { "tier": 2, "name": "of the Penguin", "requiredLevel": 44, "spawnWeight": 1000, "statMin": 30, "statMax": 35 },
+      { "tier": 3, "name": "of the Tundra",  "requiredLevel": 30, "spawnWeight": 1250, "statMin": 22, "statMax": 29 },
+      { "tier": 4, "name": "of the Ice",     "requiredLevel": 18, "spawnWeight": 1500, "statMin": 12, "statMax": 21 },
+      { "tier": 5, "name": "of the Frost",   "requiredLevel": 1,  "spawnWeight": 1750, "statMin": 6,  "statMax": 11 }
+    ],
+    "statId": "cold_resistance_%",
+    "statText": "+#% to Cold Resistance"
+  },
+  {
+    "id": "LightningResistance",
+    "name": "of the Storm",
+    "type": "suffix",
+    "group": "LightningResistance",
+    "tags": ["armour", "jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of the Heavens",  "requiredLevel": 60, "spawnWeight": 750,  "statMin": 36, "statMax": 40 },
+      { "tier": 2, "name": "of the Lightning","requiredLevel": 44, "spawnWeight": 1000, "statMin": 30, "statMax": 35 },
+      { "tier": 3, "name": "of the Storm",    "requiredLevel": 30, "spawnWeight": 1250, "statMin": 22, "statMax": 29 },
+      { "tier": 4, "name": "of the Clouds",   "requiredLevel": 18, "spawnWeight": 1500, "statMin": 12, "statMax": 21 },
+      { "tier": 5, "name": "of the Squall",   "requiredLevel": 1,  "spawnWeight": 1750, "statMin": 6,  "statMax": 11 }
+    ],
+    "statId": "lightning_resistance_%",
+    "statText": "+#% to Lightning Resistance"
+  },
+  {
+    "id": "AllResistances",
+    "name": "of the Elements",
+    "type": "suffix",
+    "group": "AllResistances",
+    "tags": ["jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of the Elements",    "requiredLevel": 48, "spawnWeight": 300, "statMin": 12, "statMax": 16 },
+      { "tier": 2, "name": "of Balance",         "requiredLevel": 36, "spawnWeight": 500, "statMin": 8,  "statMax": 11 },
+      { "tier": 3, "name": "of Equilibrium",     "requiredLevel": 24, "spawnWeight": 750, "statMin": 4,  "statMax": 7 },
+      { "tier": 4, "name": "of Resistance",      "requiredLevel": 1,  "spawnWeight": 1000,"statMin": 2,  "statMax": 3 }
+    ],
+    "statId": "all_resistances_%",
+    "statText": "+#% to all Elemental Resistances"
+  },
+  {
+    "id": "MoveSpeed",
+    "name": "of the Cheetah",
+    "type": "suffix",
+    "group": "MoveSpeed",
+    "tags": ["boots"],
+    "tiers": [
+      { "tier": 1, "name": "of the Cheetah",  "requiredLevel": 50, "spawnWeight": 400,  "statMin": 30, "statMax": 35 },
+      { "tier": 2, "name": "of the Lynx",     "requiredLevel": 35, "spawnWeight": 600,  "statMin": 25, "statMax": 29 },
+      { "tier": 3, "name": "of the Deer",     "requiredLevel": 20, "spawnWeight": 900,  "statMin": 20, "statMax": 24 },
+      { "tier": 4, "name": "of the Rabbit",   "requiredLevel": 10, "spawnWeight": 1200, "statMin": 15, "statMax": 19 },
+      { "tier": 5, "name": "of the Tortoise", "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 10, "statMax": 14 }
+    ],
+    "statId": "movement_speed_+%",
+    "statText": "#% increased Movement Speed"
+  },
+  {
+    "id": "IncreasedSpellDamage",
+    "name": "of Spellcraft",
+    "type": "prefix",
+    "group": "IncreasedSpellDamage",
+    "tags": ["weapon", "caster"],
+    "tiers": [
+      { "tier": 1, "name": "Spell Power",    "requiredLevel": 62, "spawnWeight": 500,  "statMin": 70, "statMax": 90 },
+      { "tier": 2, "name": "Spellcraft",     "requiredLevel": 46, "spawnWeight": 750,  "statMin": 50, "statMax": 69 },
+      { "tier": 3, "name": "Spellweaving",   "requiredLevel": 30, "spawnWeight": 1000, "statMin": 30, "statMax": 49 },
+      { "tier": 4, "name": "Spellbinding",   "requiredLevel": 13, "spawnWeight": 1200, "statMin": 15, "statMax": 29 },
+      { "tier": 5, "name": "Hexed",          "requiredLevel": 1,  "spawnWeight": 1500, "statMin": 5,  "statMax": 14 }
+    ],
+    "statId": "spell_damage_+%",
+    "statText": "#% increased Spell Damage"
+  },
+  {
+    "id": "AddedStrength",
+    "name": "of Might",
+    "type": "suffix",
+    "group": "AddedStrength",
+    "tags": ["jewellery", "armour"],
+    "tiers": [
+      { "tier": 1, "name": "of Titans",  "requiredLevel": 60, "spawnWeight": 600,  "statMin": 30, "statMax": 40 },
+      { "tier": 2, "name": "of Giants",  "requiredLevel": 45, "spawnWeight": 800,  "statMin": 20, "statMax": 29 },
+      { "tier": 3, "name": "of Might",   "requiredLevel": 30, "spawnWeight": 1000, "statMin": 13, "statMax": 19 },
+      { "tier": 4, "name": "of Power",   "requiredLevel": 15, "spawnWeight": 1300, "statMin": 8,  "statMax": 12 },
+      { "tier": 5, "name": "of Brawn",   "requiredLevel": 1,  "spawnWeight": 1600, "statMin": 3,  "statMax": 7 }
+    ],
+    "statId": "strength",
+    "statText": "+# to Strength"
+  },
+  {
+    "id": "AddedDexterity",
+    "name": "of Dexterity",
+    "type": "suffix",
+    "group": "AddedDexterity",
+    "tags": ["jewellery", "armour"],
+    "tiers": [
+      { "tier": 1, "name": "of the Wind",    "requiredLevel": 60, "spawnWeight": 600,  "statMin": 30, "statMax": 40 },
+      { "tier": 2, "name": "of the Panther", "requiredLevel": 45, "spawnWeight": 800,  "statMin": 20, "statMax": 29 },
+      { "tier": 3, "name": "of Dexterity",   "requiredLevel": 30, "spawnWeight": 1000, "statMin": 13, "statMax": 19 },
+      { "tier": 4, "name": "of Agility",     "requiredLevel": 15, "spawnWeight": 1300, "statMin": 8,  "statMax": 12 },
+      { "tier": 5, "name": "of Skill",       "requiredLevel": 1,  "spawnWeight": 1600, "statMin": 3,  "statMax": 7 }
+    ],
+    "statId": "dexterity",
+    "statText": "+# to Dexterity"
+  },
+  {
+    "id": "AddedIntelligence",
+    "name": "of Wizardry",
+    "type": "suffix",
+    "group": "AddedIntelligence",
+    "tags": ["jewellery", "armour"],
+    "tiers": [
+      { "tier": 1, "name": "of the Sorcerer", "requiredLevel": 60, "spawnWeight": 600,  "statMin": 30, "statMax": 40 },
+      { "tier": 2, "name": "of the Mage",     "requiredLevel": 45, "spawnWeight": 800,  "statMin": 20, "statMax": 29 },
+      { "tier": 3, "name": "of Wizardry",     "requiredLevel": 30, "spawnWeight": 1000, "statMin": 13, "statMax": 19 },
+      { "tier": 4, "name": "of the Conjurer", "requiredLevel": 15, "spawnWeight": 1300, "statMin": 8,  "statMax": 12 },
+      { "tier": 5, "name": "of the Apprentice","requiredLevel": 1,  "spawnWeight": 1600, "statMin": 3,  "statMax": 7 }
+    ],
+    "statId": "intelligence",
+    "statText": "+# to Intelligence"
+  },
+  {
+    "id": "LifeLeech",
+    "name": "of Leeching",
+    "type": "suffix",
+    "group": "LifeLeech",
+    "tags": ["weapon"],
+    "tiers": [
+      { "tier": 1, "name": "of Carnivory",  "requiredLevel": 60, "spawnWeight": 300, "statMin": 15, "statMax": 20 },
+      { "tier": 2, "name": "of Vampirism",  "requiredLevel": 40, "spawnWeight": 500, "statMin": 10, "statMax": 14 },
+      { "tier": 3, "name": "of Leeching",   "requiredLevel": 20, "spawnWeight": 800, "statMin": 5,  "statMax": 9 }
+    ],
+    "statId": "life_leech_from_physical_damage_%",
+    "statText": "#% of Physical Damage Leeched as Life"
+  },
+  {
+    "id": "IncreasedRarity",
+    "name": "of Luck",
+    "type": "suffix",
+    "group": "IncreasedRarity",
+    "tags": ["armour", "jewellery"],
+    "tiers": [
+      { "tier": 1, "name": "of Fortune",   "requiredLevel": 60, "spawnWeight": 400, "statMin": 35, "statMax": 50 },
+      { "tier": 2, "name": "of the Hunt",  "requiredLevel": 45, "spawnWeight": 600, "statMin": 25, "statMax": 34 },
+      { "tier": 3, "name": "of Luck",      "requiredLevel": 30, "spawnWeight": 900, "statMin": 15, "statMax": 24 },
+      { "tier": 4, "name": "of Chance",    "requiredLevel": 1,  "spawnWeight": 1200,"statMin": 5,  "statMax": 14 }
+    ],
+    "statId": "item_found_rarity_+%",
+    "statText": "#% increased Rarity of Items found"
+  }
+]

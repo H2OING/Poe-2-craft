@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #0d0d0d;
+    color: #c8c8c8;
+    font-family: 'Fontin', 'Georgia', serif;
+  }
+}
+
+@layer utilities {
+  .item-normal { color: #c8c8c8; }
+  .item-magic  { color: #8888ff; }
+  .item-rare   { color: #ffff77; }
+  .item-unique { color: #af6025; }
+
+  .mod-prefix  { color: #88f; }
+  .mod-suffix  { color: #8f8; }
+  .mod-implicit{ color: #88f; }
+
+  .gold-border {
+    border: 1px solid #786030;
+  }
+  .gold-text {
+    color: #c8a257;
+  }
+
+  .item-card-bg {
+    background: linear-gradient(180deg, #0d0d0d 0%, #1a1209 100%);
+  }
+
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #786030, transparent);
+    margin: 6px 0;
+  }
+}
