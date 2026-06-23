@@ -1,0 +1,242 @@
+[
+  {
+    "id": "rusted_sword",
+    "name": "Rusted Sword",
+    "itemClass": "OneHandedSword",
+    "tags": ["weapon", "one_hand_weapon", "sword", "melee"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "str": 14 },
+    "implicits": [{ "id": "implicit_phys_percent", "text": "+#% to Physical Damage", "min": 10, "max": 20 }],
+    "baseStats": { "physMin": 5, "physMax": 9 }
+  },
+  {
+    "id": "long_sword",
+    "name": "Long Sword",
+    "itemClass": "OneHandedSword",
+    "tags": ["weapon", "one_hand_weapon", "sword", "melee"],
+    "itemLevel": 10,
+    "requirements": { "level": 10, "str": 21, "dex": 14 },
+    "implicits": [{ "id": "implicit_phys_percent", "text": "+#% to Physical Damage", "min": 15, "max": 25 }],
+    "baseStats": { "physMin": 9, "physMax": 17 }
+  },
+  {
+    "id": "siege_axe",
+    "name": "Siege Axe",
+    "itemClass": "TwoHandedAxe",
+    "tags": ["weapon", "two_hand_weapon", "axe", "melee"],
+    "itemLevel": 20,
+    "requirements": { "level": 20, "str": 65 },
+    "implicits": [],
+    "baseStats": { "physMin": 28, "physMax": 42 }
+  },
+  {
+    "id": "war_hammer",
+    "name": "War Hammer",
+    "itemClass": "TwoHandedMace",
+    "tags": ["weapon", "two_hand_weapon", "mace", "melee"],
+    "itemLevel": 15,
+    "requirements": { "level": 15, "str": 50 },
+    "implicits": [{ "id": "implicit_stun", "text": "+#% to Stun Threshold", "min": 5, "max": 10 }],
+    "baseStats": { "physMin": 20, "physMax": 38 }
+  },
+  {
+    "id": "recurve_bow",
+    "name": "Recurve Bow",
+    "itemClass": "Bow",
+    "tags": ["weapon", "two_hand_weapon", "bow", "ranged"],
+    "itemLevel": 18,
+    "requirements": { "level": 18, "dex": 50 },
+    "implicits": [],
+    "baseStats": { "physMin": 12, "physMax": 24 }
+  },
+  {
+    "id": "driftwood_wand",
+    "name": "Driftwood Wand",
+    "itemClass": "Wand",
+    "tags": ["weapon", "one_hand_weapon", "wand", "caster"],
+    "itemLevel": 1,
+    "requirements": { "level": 2, "int": 18 },
+    "implicits": [{ "id": "implicit_spell_damage", "text": "+#% to Spell Damage", "min": 10, "max": 20 }],
+    "baseStats": { "physMin": 3, "physMax": 7 }
+  },
+  {
+    "id": "iron_staff",
+    "name": "Iron Staff",
+    "itemClass": "Staff",
+    "tags": ["weapon", "two_hand_weapon", "staff", "caster", "melee"],
+    "itemLevel": 10,
+    "requirements": { "level": 10, "str": 20, "int": 20 },
+    "implicits": [{ "id": "implicit_block", "text": "#% Chance to Block Attack Damage", "min": 18, "max": 18 }],
+    "baseStats": { "physMin": 8, "physMax": 18 }
+  },
+  {
+    "id": "rusted_shield",
+    "name": "Rusted Shield",
+    "itemClass": "Shield",
+    "tags": ["armour", "shield"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "str": 12 },
+    "implicits": [{ "id": "implicit_block", "text": "#% Chance to Block Attack Damage", "min": 20, "max": 20 }],
+    "baseStats": { "armour": 15, "block": 20 }
+  },
+  {
+    "id": "plate_vest",
+    "name": "Plate Vest",
+    "itemClass": "BodyArmour",
+    "tags": ["armour", "body_armour", "str_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 6, "str": 28 },
+    "implicits": [],
+    "baseStats": { "armour": 40 }
+  },
+  {
+    "id": "full_plate",
+    "name": "Full Plate",
+    "itemClass": "BodyArmour",
+    "tags": ["armour", "body_armour", "str_armour"],
+    "itemLevel": 35,
+    "requirements": { "level": 35, "str": 115 },
+    "implicits": [],
+    "baseStats": { "armour": 220 }
+  },
+  {
+    "id": "silken_vest",
+    "name": "Silken Vest",
+    "itemClass": "BodyArmour",
+    "tags": ["armour", "body_armour", "dex_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 6, "dex": 22 },
+    "implicits": [],
+    "baseStats": { "evasion": 38 }
+  },
+  {
+    "id": "scholar_robe",
+    "name": "Scholar's Robe",
+    "itemClass": "BodyArmour",
+    "tags": ["armour", "body_armour", "int_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 6, "int": 22 },
+    "implicits": [],
+    "baseStats": { "energyShield": 18 }
+  },
+  {
+    "id": "iron_cap",
+    "name": "Iron Cap",
+    "itemClass": "Helmet",
+    "tags": ["armour", "helmet", "str_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "str": 14 },
+    "implicits": [],
+    "baseStats": { "armour": 20 }
+  },
+  {
+    "id": "leather_cap",
+    "name": "Leather Cap",
+    "itemClass": "Helmet",
+    "tags": ["armour", "helmet", "dex_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "dex": 14 },
+    "implicits": [],
+    "baseStats": { "evasion": 18 }
+  },
+  {
+    "id": "wool_shoes",
+    "name": "Wool Shoes",
+    "itemClass": "Boots",
+    "tags": ["armour", "boots", "int_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "int": 14 },
+    "implicits": [],
+    "baseStats": { "energyShield": 8 }
+  },
+  {
+    "id": "iron_greaves",
+    "name": "Iron Greaves",
+    "itemClass": "Boots",
+    "tags": ["armour", "boots", "str_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "str": 20 },
+    "implicits": [],
+    "baseStats": { "armour": 22 }
+  },
+  {
+    "id": "chain_gloves",
+    "name": "Chain Gloves",
+    "itemClass": "Gloves",
+    "tags": ["armour", "gloves", "dex_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "dex": 14 },
+    "implicits": [],
+    "baseStats": { "evasion": 12 }
+  },
+  {
+    "id": "silk_gloves",
+    "name": "Silk Gloves",
+    "itemClass": "Gloves",
+    "tags": ["armour", "gloves", "int_armour"],
+    "itemLevel": 1,
+    "requirements": { "level": 5, "int": 14 },
+    "implicits": [],
+    "baseStats": { "energyShield": 7 }
+  },
+  {
+    "id": "coral_ring",
+    "name": "Coral Ring",
+    "itemClass": "Ring",
+    "tags": ["jewellery", "ring"],
+    "itemLevel": 1,
+    "requirements": {},
+    "implicits": [{ "id": "implicit_life_regen", "text": "+# Life Regenerated per Second", "min": 2, "max": 4 }],
+    "baseStats": {}
+  },
+  {
+    "id": "iron_ring",
+    "name": "Iron Ring",
+    "itemClass": "Ring",
+    "tags": ["jewellery", "ring"],
+    "itemLevel": 1,
+    "requirements": {},
+    "implicits": [{ "id": "implicit_str", "text": "+# to Strength", "min": 1, "max": 1 }],
+    "baseStats": {}
+  },
+  {
+    "id": "paua_amulet",
+    "name": "Paua Amulet",
+    "itemClass": "Amulet",
+    "tags": ["jewellery", "amulet"],
+    "itemLevel": 1,
+    "requirements": {},
+    "implicits": [{ "id": "implicit_mana", "text": "+# to maximum Mana", "min": 20, "max": 30 }],
+    "baseStats": {}
+  },
+  {
+    "id": "amber_amulet",
+    "name": "Amber Amulet",
+    "itemClass": "Amulet",
+    "tags": ["jewellery", "amulet"],
+    "itemLevel": 1,
+    "requirements": {},
+    "implicits": [{ "id": "implicit_str", "text": "+# to Strength", "min": 16, "max": 20 }],
+    "baseStats": {}
+  },
+  {
+    "id": "jade_flask",
+    "name": "Jade Flask",
+    "itemClass": "UtilityFlask",
+    "tags": ["flask", "utility_flask"],
+    "itemLevel": 1,
+    "requirements": { "level": 18 },
+    "implicits": [],
+    "baseStats": { "effect": "Grants Evasion" }
+  },
+  {
+    "id": "life_flask",
+    "name": "Ruby Flask",
+    "itemClass": "LifeFlask",
+    "tags": ["flask", "life_flask"],
+    "itemLevel": 1,
+    "requirements": { "level": 1 },
+    "implicits": [],
+    "baseStats": { "lifeRecovery": 150 }
+  }
+]
