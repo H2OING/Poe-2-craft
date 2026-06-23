@@ -6,7 +6,7 @@ import StatsPanel from './components/StatsPanel';
 import type { ItemBase } from './types';
 
 export default function App() {
-  const { item, history, actionLog, selectBase, applyCurrency, undo, reset } = useCrafting();
+  const { item, history, actionLog, seed, selectBase, applyCurrency, undo, reset } = useCrafting();
 
   function handleSelectBase(base: ItemBase) {
     selectBase(base);
@@ -31,7 +31,7 @@ export default function App() {
             Data: poe2db.tw ↗
           </a>
           <span className="text-[#333]">|</span>
-          <span>Session seed: {Date.now().toString(36)}</span>
+          <span>Session seed: {seed.toString(36)}</span>
         </div>
       </header>
 
